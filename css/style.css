@@ -1,3 +1,55 @@
 body p{
-  color: #d21c1c;
+    font-size: 12px;
+    font-family: medula-one, marko-one;
+    color: darkcyan;
+}
+
+body h1{
+    font-family: impact, marko-one;
+    font-weight: bold;
+    color: #0e6f6f;
+}
+
+body h3{
+    font-size: 20px;
+    font-family: medula-one, marko-one;
+    font-weight: bold;
+    color: #606d6d;
+}
+
+body {
+    overflow: hidden;
+}
+
+#content{
+    overflow-y: auto;
+    height: 755px;
+    border-left: 5px solid;
+    border-left-color: crimson;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#list{
+}
+
+.pin {
+    display: inline-block;
+    background: #FEFEFE;
+    border: 2px solid #FAFAFA;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 0 2px 15px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    padding: 15px 15px 5px;
+    background: #FFFFFF;
+    opacity: 1;
+
+    border-radius: 4px;
+
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
 }
